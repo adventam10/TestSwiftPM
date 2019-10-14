@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AMChart",
+        "repositoryURL": "https://github.com/adventam10/AMChart",
+        "state": {
+          "branch": null,
+          "revision": "f4c86e02bf43b6fc54c8460181312f224754603f",
+          "version": "2.2.0"
+        }
+      },
+      {
+        "package": "AMClockView",
+        "repositoryURL": "https://github.com/adventam10/AMClockView",
+        "state": {
+          "branch": null,
+          "revision": "2b48ca4dcc2eb5f346e25a7cabb0cce68853e6cd",
+          "version": "2.1.0"
+        }
+      },
+      {
+        "package": "AMJpnMap",
+        "repositoryURL": "https://github.com/adventam10/AMJpnMapView",
+        "state": {
+          "branch": null,
+          "revision": "fe3f77e71bc27239eb30e5ea4f11e9fb78005d30",
+          "version": "2.1.0"
+        }
+      },
+      {
+        "package": "AMMeterView",
+        "repositoryURL": "https://github.com/adventam10/AMMeterView",
+        "state": {
+          "branch": null,
+          "revision": "fd85a08b9e0b9bc7b2964e06b92653a7e8d8b704",
+          "version": "2.1.1"
+        }
+      },
+      {
+        "package": "AMNowClockView",
+        "repositoryURL": "https://github.com/adventam10/AMNowClockView",
+        "state": {
+          "branch": null,
+          "revision": "5ab2eeded6f9c344c045ca92e28affa98323ec2a",
+          "version": "2.2.0"
+        }
+      },
+      {
+        "package": "AMSpeedMeter",
+        "repositoryURL": "https://github.com/adventam10/AMSpeedMeter",
+        "state": {
+          "branch": null,
+          "revision": "73fe978f0597b597512509297bdef17c4f101bad",
+          "version": "2.1.0"
+        }
+      },
+      {
+        "package": "AMVennDiagramView",
+        "repositoryURL": "https://github.com/adventam10/AMVennDiagramView",
+        "state": {
+          "branch": null,
+          "revision": "13a686b3ee4c366f33ca04317e8cf13c86779394",
+          "version": "2.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

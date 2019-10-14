@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tt7-tq-9ir">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rN6-g7-DIQ">
+            <objects>
+                <viewController id="n6L-rO-a4U" customClass="ViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5IW-Fo-bqN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="E1K-Yk-cTY">
+                                <rect key="frame" x="15" y="345.5" width="384" height="205"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="dTb-jB-M3o">
+                                        <rect key="frame" x="0.0" y="0.0" width="184.5" height="205"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1c-EZ-bB0">
+                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="76J-ox-M36"/>
+                                                </constraints>
+                                                <state key="normal" title="AMClock"/>
+                                                <connections>
+                                                    <segue destination="M2a-Yo-P8n" kind="show" id="gaS-g6-0Sk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2II-a9-bWC">
+                                                <rect key="frame" x="0.0" y="55" width="184.5" height="40"/>
+                                                <state key="normal" title="AMNowClock"/>
+                                                <connections>
+                                                    <segue destination="EHb-Zd-0iV" kind="show" id="qzi-5n-NH6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6d-H1-ULo">
+                                                <rect key="frame" x="0.0" y="110" width="184.5" height="40"/>
+                                                <state key="normal" title="AMMeter"/>
+                                                <connections>
+                                                    <segue destination="JEo-O0-i77" kind="show" id="sN4-ZD-AZw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BtL-TF-lBy">
+                                                <rect key="frame" x="0.0" y="165" width="184.5" height="40"/>
+                                                <state key="normal" title="AMSpeedMeter"/>
+                                                <connections>
+                                                    <segue destination="iFw-NM-q57" kind="show" id="jRt-OS-Vos"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Uim-53-Na8">
+                                        <rect key="frame" x="199.5" y="0.0" width="184.5" height="205"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7x-T2-LMU">
+                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="58.5"/>
+                                                <state key="normal" title="AMVenn"/>
+                                                <connections>
+                                                    <segue destination="ZTa-sR-tjx" kind="show" id="tmv-be-jot"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfs-NQ-mQz">
+                                                <rect key="frame" x="0.0" y="73.5" width="184.5" height="58"/>
+                                                <state key="normal" title="AMChart"/>
+                                                <connections>
+                                                    <segue destination="riL-sg-S3Y" kind="show" id="g2Y-5A-goB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqZ-lp-24o">
+                                                <rect key="frame" x="0.0" y="146.5" width="184.5" height="58.5"/>
+                                                <state key="normal" title="AMMap"/>
+                                                <connections>
+                                                    <segue destination="qMF-it-FEi" kind="show" id="x97-Tv-qkb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="E1K-Yk-cTY" firstAttribute="centerY" secondItem="5IW-Fo-bqN" secondAttribute="centerY" id="8H3-uM-3Jw"/>
+                            <constraint firstItem="E1K-Yk-cTY" firstAttribute="leading" secondItem="hVf-j2-A4m" secondAttribute="leading" constant="15" id="BHc-EU-rMI"/>
+                            <constraint firstItem="hVf-j2-A4m" firstAttribute="trailing" secondItem="E1K-Yk-cTY" secondAttribute="trailing" constant="15" id="gaa-nJ-OTm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hVf-j2-A4m"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="j8z-4h-6rp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BGO-U6-KeC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PAm-Yg-vb7">
+            <objects>
+                <navigationController id="tt7-tq-9ir" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ody-gI-Fyc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="n6L-rO-a4U" kind="relationship" relationship="rootViewController" id="450-WY-4eP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vm8-93-3Cj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-638" y="138"/>
+        </scene>
+        <!--AMNowClockView-->
+        <scene sceneID="Oyb-cI-Yzw">
+            <objects>
+                <viewController title="AMNowClockView" id="EHb-Zd-0iV" customClass="NowClockViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PgO-eQ-vPu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="CN5-VV-Nir">
+                                <rect key="frame" x="87" y="200.5" width="240" height="495"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctb-Jv-SiA" customClass="AMNowClockView" customModule="AMNowClockView">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ctb-Jv-SiA" secondAttribute="height" multiplier="1:1" id="Fe6-Ms-ZBI"/>
+                                            <constraint firstAttribute="width" constant="240" id="Iet-iS-Xtv"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09v-xI-FDS" customClass="AMNowClockView" customModule="AMNowClockView">
+                                        <rect key="frame" x="0.0" y="255" width="240" height="240"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="hvp-vt-x4R"/>
+                                            <constraint firstAttribute="width" secondItem="09v-xI-FDS" secondAttribute="height" multiplier="1:1" id="smJ-Fw-1nx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CN5-VV-Nir" firstAttribute="centerY" secondItem="PgO-eQ-vPu" secondAttribute="centerY" id="ndR-LM-TnL"/>
+                            <constraint firstItem="CN5-VV-Nir" firstAttribute="centerX" secondItem="PgO-eQ-vPu" secondAttribute="centerX" id="vnO-tf-hiN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WAJ-jP-LGN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RAM-sp-xLj"/>
+                    <connections>
+                        <outlet property="cView1" destination="ctb-Jv-SiA" id="g4P-oS-4H5"/>
+                        <outlet property="cView2" destination="09v-xI-FDS" id="NCI-1G-fm3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FyL-70-0fO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="-737"/>
+        </scene>
+        <!--AMSpeedMeter-->
+        <scene sceneID="rCo-AM-MTO">
+            <objects>
+                <viewController title="AMSpeedMeter" id="iFw-NM-q57" customClass="SpeedMeterViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X1P-gG-yQK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIQ-oX-Qse" customClass="AMSpeedMeterView" customModule="AMSpeedMeter">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="TCt-sg-OSs"/>
+                                    <constraint firstAttribute="width" secondItem="NIQ-oX-Qse" secondAttribute="height" multiplier="1:1" id="m4P-dV-AiC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NIQ-oX-Qse" firstAttribute="centerY" secondItem="X1P-gG-yQK" secondAttribute="centerY" id="IJg-Th-ZwM"/>
+                            <constraint firstItem="NIQ-oX-Qse" firstAttribute="centerX" secondItem="X1P-gG-yQK" secondAttribute="centerX" id="dVK-Js-b7L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FqE-MS-PKR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DxK-0o-ZCd"/>
+                    <connections>
+                        <outlet property="sView" destination="NIQ-oX-Qse" id="hzU-m6-chV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKo-GR-tNS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="-917"/>
+        </scene>
+        <!--AMVennDiagramView-->
+        <scene sceneID="fyC-Xj-lhk">
+            <objects>
+                <viewController title="AMVennDiagramView" id="ZTa-sR-tjx" customClass="VennDiagramViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6ZH-tU-Qbz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nYc-pB-AA7" customClass="AMVennDiagramView" customModule="AMVennDiagramView">
+                                <rect key="frame" x="15" y="103" width="384" height="744"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vzP-jO-7Cy" firstAttribute="trailing" secondItem="nYc-pB-AA7" secondAttribute="trailing" constant="15" id="0Rx-FO-uM6"/>
+                            <constraint firstItem="nYc-pB-AA7" firstAttribute="leading" secondItem="vzP-jO-7Cy" secondAttribute="leading" constant="15" id="0qa-T5-DC3"/>
+                            <constraint firstItem="nYc-pB-AA7" firstAttribute="top" secondItem="vzP-jO-7Cy" secondAttribute="top" constant="15" id="1L1-w4-NKH"/>
+                            <constraint firstItem="vzP-jO-7Cy" firstAttribute="bottom" secondItem="nYc-pB-AA7" secondAttribute="bottom" constant="15" id="RKI-eE-4jM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vzP-jO-7Cy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yyb-iD-eGz"/>
+                    <connections>
+                        <outlet property="vView" destination="nYc-pB-AA7" id="o0V-b7-P2K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hW-Ef-qUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="820"/>
+        </scene>
+        <!--AMChart-->
+        <scene sceneID="mqv-N7-4R0">
+            <objects>
+                <viewController title="AMChart" id="riL-sg-S3Y" customClass="ChartViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Wm-el-JHu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8y-uH-QxU" customClass="AMLineChartView" customModule="AMChart">
+                                <rect key="frame" x="0.0" y="88" width="165.5" height="269"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K0K-Wg-IyD" customClass="AMScatterChartView" customModule="AMChart">
+                                <rect key="frame" x="248.5" y="88" width="165.5" height="269"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJk-wb-naR" customClass="AMRadarChartView" customModule="AMChart">
+                                <rect key="frame" x="124" y="365" width="166" height="166"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EJk-wb-naR" secondAttribute="height" multiplier="1:1" id="bvx-Mn-Qy5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Umt-9g-mzE" customClass="AMPieChartView" customModule="AMChart">
+                                <rect key="frame" x="0.0" y="593" width="165.5" height="269"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFR-tp-M2h" customClass="AMBarChartView" customModule="AMChart">
+                                <rect key="frame" x="248.5" y="593" width="165.5" height="269"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXT-0c-V4F">
+                                <rect key="frame" x="0.0" y="365" width="124" height="166"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ojh-wF-0BT">
+                                        <rect key="frame" x="0.0" y="82.5" width="124" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="NUy-Ea-JcJ"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw0-L5-ifp">
+                                        <rect key="frame" x="38" y="42.5" width="48" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="1Qk-GO-xrP"/>
+                                        </constraints>
+                                        <state key="normal" title="reload"/>
+                                        <connections>
+                                            <action selector="tappedReloadButton:" destination="riL-sg-S3Y" eventType="touchUpInside" id="fIH-iA-iIf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSY-mG-T6d">
+                                        <rect key="frame" x="38" y="93.5" width="48" height="30"/>
+                                        <state key="normal" title="redraw"/>
+                                        <connections>
+                                            <action selector="tappedRedrawButton:" destination="riL-sg-S3Y" eventType="touchUpInside" id="agv-mX-VUF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="Ojh-wF-0BT" firstAttribute="leading" secondItem="NXT-0c-V4F" secondAttribute="leading" id="16c-QB-8pD"/>
+                                    <constraint firstItem="hw0-L5-ifp" firstAttribute="centerX" secondItem="NXT-0c-V4F" secondAttribute="centerX" id="1QO-44-48u"/>
+                                    <constraint firstItem="VSY-mG-T6d" firstAttribute="width" secondItem="hw0-L5-ifp" secondAttribute="width" id="Bp0-3o-Uk7"/>
+                                    <constraint firstItem="VSY-mG-T6d" firstAttribute="height" secondItem="hw0-L5-ifp" secondAttribute="height" id="CcG-Nb-bRB"/>
+                                    <constraint firstItem="Ojh-wF-0BT" firstAttribute="top" secondItem="hw0-L5-ifp" secondAttribute="bottom" constant="10" id="XkD-ng-IrQ"/>
+                                    <constraint firstItem="Ojh-wF-0BT" firstAttribute="centerY" secondItem="NXT-0c-V4F" secondAttribute="centerY" id="hdD-2k-448"/>
+                                    <constraint firstItem="VSY-mG-T6d" firstAttribute="top" secondItem="Ojh-wF-0BT" secondAttribute="bottom" constant="10" id="iTm-nT-0hN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ojh-wF-0BT" secondAttribute="trailing" id="l6u-e4-Kee"/>
+                                    <constraint firstItem="VSY-mG-T6d" firstAttribute="centerX" secondItem="hw0-L5-ifp" secondAttribute="centerX" id="mbR-3J-6xP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Umt-9g-mzE" firstAttribute="leading" secondItem="FPt-52-kT6" secondAttribute="leading" id="6MT-GR-shw"/>
+                            <constraint firstItem="FPt-52-kT6" firstAttribute="trailing" secondItem="K0K-Wg-IyD" secondAttribute="trailing" id="8jM-0G-IkT"/>
+                            <constraint firstItem="R8y-uH-QxU" firstAttribute="leading" secondItem="FPt-52-kT6" secondAttribute="leading" id="A36-SB-XSg"/>
+                            <constraint firstItem="R8y-uH-QxU" firstAttribute="width" secondItem="9Wm-el-JHu" secondAttribute="width" multiplier="0.4" id="Abg-wu-hdr"/>
+                            <constraint firstItem="NXT-0c-V4F" firstAttribute="leading" secondItem="9Wm-el-JHu" secondAttribute="leading" id="Fmp-CR-Hxl"/>
+                            <constraint firstItem="R8y-uH-QxU" firstAttribute="top" secondItem="FPt-52-kT6" secondAttribute="top" id="H1r-Lb-ngS"/>
+                            <constraint firstItem="EJk-wb-naR" firstAttribute="centerX" secondItem="9Wm-el-JHu" secondAttribute="centerX" id="Hdc-aO-gUF"/>
+                            <constraint firstItem="K0K-Wg-IyD" firstAttribute="width" secondItem="R8y-uH-QxU" secondAttribute="width" id="Kv7-80-YtV"/>
+                            <constraint firstItem="R8y-uH-QxU" firstAttribute="height" secondItem="9Wm-el-JHu" secondAttribute="height" multiplier="0.3" id="PEo-Tt-1bT"/>
+                            <constraint firstItem="Umt-9g-mzE" firstAttribute="width" secondItem="R8y-uH-QxU" secondAttribute="width" id="QNg-cK-BpK"/>
+                            <constraint firstItem="NXT-0c-V4F" firstAttribute="height" secondItem="EJk-wb-naR" secondAttribute="height" id="WAn-Tk-2Aq"/>
+                            <constraint firstItem="mFR-tp-M2h" firstAttribute="height" secondItem="Umt-9g-mzE" secondAttribute="height" id="Yw7-RA-mB7"/>
+                            <constraint firstItem="EJk-wb-naR" firstAttribute="leading" secondItem="NXT-0c-V4F" secondAttribute="trailing" id="ZXg-O3-Hd8"/>
+                            <constraint firstItem="Umt-9g-mzE" firstAttribute="height" secondItem="R8y-uH-QxU" secondAttribute="height" id="aJU-RR-h36"/>
+                            <constraint firstItem="FPt-52-kT6" firstAttribute="bottom" secondItem="mFR-tp-M2h" secondAttribute="bottom" id="dSG-z2-A1N"/>
+                            <constraint firstItem="K0K-Wg-IyD" firstAttribute="height" secondItem="R8y-uH-QxU" secondAttribute="height" id="fqP-ns-B6u"/>
+                            <constraint firstItem="mFR-tp-M2h" firstAttribute="width" secondItem="Umt-9g-mzE" secondAttribute="width" id="h1q-nu-eiR"/>
+                            <constraint firstItem="NXT-0c-V4F" firstAttribute="centerY" secondItem="EJk-wb-naR" secondAttribute="centerY" id="hsG-zQ-3xT"/>
+                            <constraint firstItem="FPt-52-kT6" firstAttribute="bottom" secondItem="Umt-9g-mzE" secondAttribute="bottom" id="iV2-hv-W2O"/>
+                            <constraint firstItem="EJk-wb-naR" firstAttribute="centerY" secondItem="9Wm-el-JHu" secondAttribute="centerY" id="lA1-9J-7uT"/>
+                            <constraint firstItem="EJk-wb-naR" firstAttribute="width" secondItem="R8y-uH-QxU" secondAttribute="width" id="lG3-zy-3PY"/>
+                            <constraint firstItem="FPt-52-kT6" firstAttribute="trailing" secondItem="mFR-tp-M2h" secondAttribute="trailing" id="upx-Ea-b0f"/>
+                            <constraint firstItem="K0K-Wg-IyD" firstAttribute="centerY" secondItem="R8y-uH-QxU" secondAttribute="centerY" id="zPQ-DD-Tvt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FPt-52-kT6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="A3c-RK-ap3"/>
+                    <connections>
+                        <outlet property="barChartView" destination="mFR-tp-M2h" id="i0y-4a-vNW"/>
+                        <outlet property="lineChartView" destination="R8y-uH-QxU" id="lRi-j6-XTP"/>
+                        <outlet property="pieChartView" destination="Umt-9g-mzE" id="G2a-Ue-5aj"/>
+                        <outlet property="radarChartView" destination="EJk-wb-naR" id="bYI-gi-2LD"/>
+                        <outlet property="scatterChartView" destination="K0K-Wg-IyD" id="x0u-JS-pUM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r3E-md-tzA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="820"/>
+        </scene>
+        <!--AMMeterView-->
+        <scene sceneID="NYP-hJ-Gn6">
+            <objects>
+                <viewController title="AMMeterView" id="JEo-O0-i77" customClass="MeterViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ua3-Di-bVt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AcV-Va-dlM" customClass="AMMeterView" customModule="AMMeterView">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="qix-w0-j0L"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXx-25-qy8">
+                                <rect key="frame" x="186" y="292" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NXx-25-qy8" firstAttribute="centerX" secondItem="Ua3-Di-bVt" secondAttribute="centerX" id="9rw-3Q-Psp"/>
+                            <constraint firstItem="AcV-Va-dlM" firstAttribute="width" secondItem="AcV-Va-dlM" secondAttribute="height" multiplier="1:1" id="BAD-uE-Fhx"/>
+                            <constraint firstItem="AcV-Va-dlM" firstAttribute="top" secondItem="NXx-25-qy8" secondAttribute="bottom" constant="15" id="BoB-yO-myT"/>
+                            <constraint firstItem="AcV-Va-dlM" firstAttribute="centerY" secondItem="Ua3-Di-bVt" secondAttribute="centerY" id="OuJ-0p-17r"/>
+                            <constraint firstItem="AcV-Va-dlM" firstAttribute="centerX" secondItem="Ua3-Di-bVt" secondAttribute="centerX" id="q10-6X-rix"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dlF-nh-pzB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fir-zo-1aM"/>
+                    <connections>
+                        <outlet property="label" destination="NXx-25-qy8" id="HmC-Dg-cg2"/>
+                        <outlet property="mView" destination="AcV-Va-dlM" id="HRW-d6-Tbu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMa-CR-66y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1903" y="149"/>
+        </scene>
+        <!--AMClockView-->
+        <scene sceneID="1hC-hy-6iT">
+            <objects>
+                <viewController title="AMClockView" id="M2a-Yo-P8n" customClass="ClockViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bcV-GC-jtp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KAn-oO-6n0" customClass="AMClockView" customModule="AMClockView">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Ctm-5z-8Kg"/>
+                                    <constraint firstAttribute="width" secondItem="KAn-oO-6n0" secondAttribute="height" multiplier="1:1" id="Xq3-mD-Rj5"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIe-fp-Gtz">
+                                <rect key="frame" x="186" y="292" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KAn-oO-6n0" firstAttribute="centerY" secondItem="bcV-GC-jtp" secondAttribute="centerY" id="SuJ-ih-WeO"/>
+                            <constraint firstItem="HIe-fp-Gtz" firstAttribute="centerX" secondItem="bcV-GC-jtp" secondAttribute="centerX" id="XRE-Fr-cCz"/>
+                            <constraint firstItem="KAn-oO-6n0" firstAttribute="top" secondItem="HIe-fp-Gtz" secondAttribute="bottom" constant="15" id="YZK-oO-sgY"/>
+                            <constraint firstItem="KAn-oO-6n0" firstAttribute="centerX" secondItem="bcV-GC-jtp" secondAttribute="centerX" id="fCn-Z0-FJp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dny-Hs-PwB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NLi-KB-ZF2"/>
+                    <connections>
+                        <outlet property="cView" destination="KAn-oO-6n0" id="G72-K0-F0O"/>
+                        <outlet property="label" destination="HIe-fp-Gtz" id="4W4-CD-m4R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qWt-BK-f45" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="149"/>
+        </scene>
+        <!--AMJpnMap-->
+        <scene sceneID="Mxv-W5-9T3">
+            <objects>
+                <viewController title="AMJpnMap" id="qMF-it-FEi" customClass="JpnMapViewController" customModule="TestSwiftPM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VOu-Pm-6Pb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o9O-Ib-ktB" customClass="AMJpnMapView" customModule="AMJpnMap">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="o9O-Ib-ktB" secondAttribute="height" multiplier="1:1" id="9aQ-fY-KBi"/>
+                                    <constraint firstAttribute="width" constant="300" id="Dja-No-65z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="o9O-Ib-ktB" firstAttribute="centerX" secondItem="VOu-Pm-6Pb" secondAttribute="centerX" id="8FF-W4-8mH"/>
+                            <constraint firstItem="o9O-Ib-ktB" firstAttribute="centerY" secondItem="VOu-Pm-6Pb" secondAttribute="centerY" id="98Z-7v-wSM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TIM-zG-qQP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3gn-Al-7Cu"/>
+                    <connections>
+                        <outlet property="jView" destination="o9O-Ib-ktB" id="e38-ei-h9f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fAg-Vz-k6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2780" y="149"/>
+        </scene>
+    </scenes>
+</document>
