@@ -12,9 +12,9 @@
 
 
 ## 導入ライブラリ
-* [AMChart (2.2.0)](https://github.com/adventam10/AMChart)
+* [AMChart (2.3.3)](https://github.com/adventam10/AMChart)
 * [AMClockView (2.1.0)](https://github.com/adventam10/AMClockView)
-* [AMJpnMap (2.1.0)](https://github.com/adventam10/AMJpnMapView)
+* [AMJpnMap (2.1.1)](https://github.com/adventam10/AMJpnMapView)
 * [AMMeterView (2.1.1)](https://github.com/adventam10/AMMeterView)
 * [AMNowClockView (2.2.0)](https://github.com/adventam10/AMNowClockView)
 * [AMSpeedMeter (2.1.0)](https://github.com/adventam10/AMSpeedMeter)

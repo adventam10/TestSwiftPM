@@ -689,7 +689,7 @@
 			repositoryURL = "https://github.com/adventam10/AMJpnMapView";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.0;
+				minimumVersion = 2.1.1;
 			};
 		};
 		0EB235392354B62700442A85 /* XCRemoteSwiftPackageReference "AMChart" */ = {
@@ -697,7 +697,7 @@
 			repositoryURL = "https://github.com/adventam10/AMChart";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.0;
+				minimumVersion = 2.3.3;
 			};
 		};
 		0EB2353C2354B65500442A85 /* XCRemoteSwiftPackageReference "AMMeterView" */ = {
