@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EAD614B235EE43E00398503 /* OuijaBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD614A235EE43E00398503 /* OuijaBoardViewController.swift */; };
+		0EAD614E235EE51200398503 /* AMOuijaBoard in Frameworks */ = {isa = PBXBuildFile; productRef = 0EAD614D235EE51200398503 /* AMOuijaBoard */; };
 		0EB234E92354B48300442A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB234E82354B48300442A85 /* AppDelegate.swift */; };
 		0EB234EB2354B48300442A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB234EA2354B48300442A85 /* SceneDelegate.swift */; };
 		0EB234ED2354B48300442A85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB234EC2354B48300442A85 /* ViewController.swift */; };
@@ -49,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EAD614A235EE43E00398503 /* OuijaBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OuijaBoardViewController.swift; sourceTree = "<group>"; };
 		0EB234E52354B48300442A85 /* TestSwiftPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB234E82354B48300442A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EB234EA2354B48300442A85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 			files = (
 				0EB2353B2354B62700442A85 /* AMChart in Frameworks */,
 				0EB235382354B60200442A85 /* AMJpnMap in Frameworks */,
+				0EAD614E235EE51200398503 /* AMOuijaBoard in Frameworks */,
 				0EB235322354B5A100442A85 /* AMSpeedMeter in Frameworks */,
 				0EB235352354B5D000442A85 /* AMNowClockView in Frameworks */,
 				0EB2352F2354B55C00442A85 /* AMClockView in Frameworks */,
@@ -160,6 +164,7 @@
 		0EB235182354B51100442A85 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0EAD614A235EE43E00398503 /* OuijaBoardViewController.swift */,
 				0EB235192354B51100442A85 /* NowClockViewController.swift */,
 				0EB2351B2354B51100442A85 /* SpeedMeterViewController.swift */,
 				0EB2351D2354B51100442A85 /* JpnMapViewController.swift */,
@@ -195,6 +200,7 @@
 				0EB2353A2354B62700442A85 /* AMChart */,
 				0EB2353D2354B65500442A85 /* AMMeterView */,
 				0EB235402354B68C00442A85 /* AMVennDiagramView */,
+				0EAD614D235EE51200398503 /* AMOuijaBoard */,
 			);
 			productName = TestSwiftPM;
 			productReference = 0EB234E52354B48300442A85 /* TestSwiftPM.app */;
@@ -276,6 +282,7 @@
 				0EB235392354B62700442A85 /* XCRemoteSwiftPackageReference "AMChart" */,
 				0EB2353C2354B65500442A85 /* XCRemoteSwiftPackageReference "AMMeterView" */,
 				0EB2353F2354B68C00442A85 /* XCRemoteSwiftPackageReference "AMVennDiagramView" */,
+				0EAD614C235EE51200398503 /* XCRemoteSwiftPackageReference "AMOuijaBoard" */,
 			);
 			productRefGroup = 0EB234E62354B48300442A85 /* Products */;
 			projectDirPath = "";
@@ -330,6 +337,7 @@
 				0EB235232354B51100442A85 /* NowClockViewController.swift in Sources */,
 				0EB234EB2354B48300442A85 /* SceneDelegate.swift in Sources */,
 				0EB2352A2354B51100442A85 /* ChartViewController.swift in Sources */,
+				0EAD614B235EE43E00398503 /* OuijaBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +668,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0EAD614C235EE51200398503 /* XCRemoteSwiftPackageReference "AMOuijaBoard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adventam10/AMOuijaBoard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		0EB2352D2354B55C00442A85 /* XCRemoteSwiftPackageReference "AMClockView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/adventam10/AMClockView";
@@ -719,6 +735,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0EAD614D235EE51200398503 /* AMOuijaBoard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EAD614C235EE51200398503 /* XCRemoteSwiftPackageReference "AMOuijaBoard" */;
+			productName = AMOuijaBoard;
+		};
 		0EB2352E2354B55C00442A85 /* AMClockView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0EB2352D2354B55C00442A85 /* XCRemoteSwiftPackageReference "AMClockView" */;

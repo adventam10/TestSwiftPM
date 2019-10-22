@@ -47,6 +47,15 @@
         }
       },
       {
+        "package": "AMOuijaBoard",
+        "repositoryURL": "https://github.com/adventam10/AMOuijaBoard",
+        "state": {
+          "branch": null,
+          "revision": "55cec09954b464f58e4a1c5d84da00ac7ac7a023",
+          "version": "1.0.0"
+        }
+      },
+      {
         "package": "AMSpeedMeter",
         "repositoryURL": "https://github.com/adventam10/AMSpeedMeter",
         "state": {
