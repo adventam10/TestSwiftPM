@@ -673,7 +673,7 @@
 			repositoryURL = "https://github.com/adventam10/AMOuijaBoard";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 		0EB2352D2354B55C00442A85 /* XCRemoteSwiftPackageReference "AMClockView" */ = {

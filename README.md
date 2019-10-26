@@ -19,4 +19,4 @@
 * [AMNowClockView (2.2.0)](https://github.com/adventam10/AMNowClockView)
 * [AMSpeedMeter (2.1.0)](https://github.com/adventam10/AMSpeedMeter)
 * [AMVennDiagramView (2.1.0)](https://github.com/adventam10/AMVennDiagramView)
-* [AMOuijaBoard (1.0.0)](https://github.com/adventam10/AMOuijaBoard)
+* [AMOuijaBoard (1.0.1)](https://github.com/adventam10/AMOuijaBoard)
